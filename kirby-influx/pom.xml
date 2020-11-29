@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <parent>
+    <artifactId>kirby</artifactId>
+    <groupId>dev.volix.rewinside.odyssey.common</groupId>
+    <version>0.2.1</version>
+  </parent>
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>kirby-influx</artifactId>
+
+  <dependencies>
+    <dependency>
+      <groupId>dev.volix.rewinside.odyssey.common</groupId>
+      <artifactId>kirby-api</artifactId>
+      <version>0.2.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.influxdb</groupId>
+      <artifactId>influxdb-client-java</artifactId>
+      <version>1.13.0</version>
+    </dependency>
+  </dependencies>
+
+</project>

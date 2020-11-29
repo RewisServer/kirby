@@ -1,0 +1,4 @@
+include:
+    - project: 'volix/ops/ci'
+      ref: master
+      file: 'maven_release.yml'
