@@ -4,7 +4,7 @@
 
 ---
 
-Wichtig: Dieses Projekt beinhaltet nicht die Spigot-Implementation.
+**Wichtig**: Dieses Projekt beinhaltet nicht die Spigot-Implementation.
 
 Kirby dient also als Abstraktionsebene zwischen uns als Anwender der Library und den unterschiedlichen Clients für spezielle Metriken TSDBs (z.B. Prometheus, Influx, ...). Dabei kann dann mit einer einheitlichen Schnittstelle gesprochen werden, ohne die dahinterliegende Implementation zu kennen, dadurch kann 1. der Provider (Prometheus -> Influx) einfacher gewechselt werden und 2. müssen sich die Entwickler nicht in unterschiedliche Systeme einarbeiten.
 
